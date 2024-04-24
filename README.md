@@ -20,7 +20,7 @@ WAFz_cal.m is used to calculate the verical wave-activity fluxes as in Plumb (19
 SSW_event_classification_INDEX_20240424.xlsx provide of the detailed information of SSW events and related event index for events classification.
 
 %---7---%
-Cost733_Command.txt provide the linux command in the cost733class software, detailed meaning of the option in the command can be found in the cost733class userguide
+Cost733_Command.txt provide the linux command in the cost733class software, detailed meaning of the option in the command can be found in the cost733class userguide(https://git.rz.uni-augsburg.de/philipan/cost733class-1.4/-/blob/main/doc/cost733class_userguide.pdf?ref_type=heads)
 
 
 
