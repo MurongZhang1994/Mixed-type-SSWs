@@ -1,0 +1,9 @@
+clustering_command
+
+% kmeans-clustering 5 clusters
+06:cost733class -dat pth:/data2/ZhangMR_file/mrzhang_cost733/input/z10_ano_90th_new.txt fmt:ascii dtc:4 lon:-180:179.75:0.25 lat:60:90:0.25 slo:-180:179.75:0.25 sla:60:90:0.25 cnt:06_kmn3_z10_ano.nc arw:1 nrm:3 -met KMN -nrun 10 -crit 1 -ncl 5 -cla 06_kmn3_z10_ano.cla -dcol 3 -cnt 06_kmn3_z10_ano.txt
+
+% calculate ECV of clustering
+06_clain: cost733class -dat pth:/data2/ZhangMR_file/mrzhang_cost733/input/z10_ano_90th_new.txt fmt:ascii dtc:4 lon:-180:179.75:0.25 lat:60:90:0.25 slo:-180:179.75:0.25 sla:60:90:0.25 -clain pth:./output_djfm/06_kmn3_z10_ano.cla dtc:3 -met ECV
+
+
