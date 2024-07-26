@@ -1,5 +1,5 @@
 # Mixed-type-SSWs
-This is a repository for essential matlab codes applied in the manuscript submitted to NC.
+This is a repository for matlab codes applied in the manuscript submitted to GRL.
   
 %---1---%
 cal_pch_ndjfma.m is used to calculate the daily polar cap height anomlaies.
