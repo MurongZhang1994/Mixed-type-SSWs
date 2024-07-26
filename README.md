@@ -1,4 +1,4 @@
-# Mixed-type WSPV envents
+# Mixed-type WSPV events
 This is a repository for essential matlab codes applied in the manuscript submitted to GRL.
   
 %---1---%
